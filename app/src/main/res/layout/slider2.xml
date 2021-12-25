@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/sliderthree">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/biorhyme_extrabold"
+        android:lineSpacingMultiplier=".7"
+        android:text="Tips
+For Shopping"
+        android:textColor="#fff"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:fontFamily="@font/clicker_script"
+        android:textSize="105sp"
+        android:textStyle="bold"
+        android:text=" Women's
+Clothes" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="@font/biorhyme_extrabold"
+        android:text="At Yalla Shopping"
+        android:layout_marginTop="10dp"
+        android:textAlignment="textEnd"/>
+
+</LinearLayout>

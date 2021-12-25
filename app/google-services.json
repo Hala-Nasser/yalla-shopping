@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "1093878347590",
+    "firebase_url": "https://yalla-shopping-deb73.firebaseio.com",
+    "project_id": "yalla-shopping-deb73",
+    "storage_bucket": "yalla-shopping-deb73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093878347590:android:2bb6f88db47accbe521747",
+        "android_client_info": {
+          "package_name": "com.example.firebasestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093878347590-t526pieduou6q4d8f19elp7dot8p4b0c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebasestorage",
+            "certificate_hash": "dab383274c1c502e4140ef0f4f3d6f5177b89736"
+          }
+        },
+        {
+          "client_id": "1093878347590-f6j9v203h01qasna331mhd5ms0euskqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6X9xkDChmjDhBU_wY-DYR6SBSPf-0Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093878347590-f6j9v203h01qasna331mhd5ms0euskqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093878347590:android:2061c453341e6ee1521747",
+        "android_client_info": {
+          "package_name": "com.example.ourproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093878347590-3li4vbc2fnbemsj98kgd2t5vo9cvosdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ourproject",
+            "certificate_hash": "dab383274c1c502e4140ef0f4f3d6f5177b89736"
+          }
+        },
+        {
+          "client_id": "1093878347590-f6j9v203h01qasna331mhd5ms0euskqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF6X9xkDChmjDhBU_wY-DYR6SBSPf-0Mo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093878347590-f6j9v203h01qasna331mhd5ms0euskqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

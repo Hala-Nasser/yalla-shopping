@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/editProdict"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9fafc"
+        android:orientation="vertical"
+        tools:context=".admin.fragments.EditProductDetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@color/app"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/edit_cancel"
+                    android:src="@drawable/ic_cancel"
+                    android:layout_centerVertical="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gochi_hand"
+                    android:gravity="center"
+                    android:layout_centerInParent="true"
+                    android:textColor="#fff"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:text="Edit product"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/itemnew"
+                android:layout_marginBottom="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Product name"
+                android:textColor="@color/app"
+                android:textColorHint="@color/app"
+                app:hintTextColor="@color/app"
+                android:layout_margin="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pname"
+                    android:fontFamily="@font/gochi_hand"
+                    android:textColor="#332F2F"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Product price"
+                android:textColor="@color/app"
+                android:textColorHint="@color/app"
+                app:hintTextColor="@color/app"
+                android:layout_margin="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Productprice"
+                    android:fontFamily="@font/gochi_hand"
+                    android:textColor="#332F2F"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:hint="Product description"
+                android:textColor="@color/app"
+                android:textColorHint="@color/app"
+                app:hintTextColor="@color/app"
+                android:layout_margin="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Productdescription"
+                    android:fontFamily="@font/gochi_hand"
+                    android:textColor="#332F2F"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text="Product category:"
+                android:fontFamily="@font/gochi_hand"
+                android:textColor="@color/app"
+                android:textSize="25sp"
+                android:layout_margin="10dp"/>
+
+            <Spinner
+                android:id="@+id/product_category"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/app"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/btn_save_edit_product"
+                android:layout_width="334dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="39dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:fontFamily="@font/gochi_hand"
+                android:text="Save"
+                android:textColor="#FFF"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

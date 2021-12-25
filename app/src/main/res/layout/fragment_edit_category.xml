@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f9fafc"
+    android:orientation="vertical"
+    tools:context=".admin.fragments.EditCategory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/app"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_alignParentStart="true"
+                android:id="@+id/category_cancel"
+                android:src="@drawable/ic_cancel"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gochi_hand"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:textColor="#fff"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:text="Edit category"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/edit_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/category_image_edit"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/slider1" />
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:hint="Category name"
+            android:textColor="@color/app"
+            android:textColorHint="@color/app"
+            app:hintTextColor="@color/app"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+
+                android:id="@+id/category_name_edit"
+                android:fontFamily="@font/gochi_hand"
+                android:textColor="#332F2F"
+                android:textStyle="normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/save_new_category"
+            android:layout_width="334dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:text="Save"
+            android:textColor="#FFF"
+            android:fontFamily="@font/gochi_hand"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+</LinearLayout>
